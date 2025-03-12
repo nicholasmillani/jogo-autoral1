@@ -1,4 +1,4 @@
-class game extends Phaser.Scene {
+class game1 extends Phaser.Scene {
 
     constructor() {
         super({ key: 'game' }); // Use a chave 'game' para a cena

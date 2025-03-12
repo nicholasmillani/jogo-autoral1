@@ -12,7 +12,7 @@ var config = {
     },
   },
 
-  scene: [MenuScene, Fase1, Vitoria]
+  scene: [MenuScene, Fase1, Vitoria,game1,plataforma]
 };
 //cria um novo jogo phaser utilizando as configurações acima
 const game = new Phaser.Game(config);

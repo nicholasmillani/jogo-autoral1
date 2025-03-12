@@ -15,7 +15,7 @@ class Vitoria extends Phaser.Scene {
     update(){
         this.input.on('pointerdown', ()=>{
             this.scene.stop('vitoria')
-            this.scene.start('menuScene')
+            this.scene.start('plataforma')
         })
     }
 }
